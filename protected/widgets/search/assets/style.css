@@ -1,0 +1,16 @@
+/* SEARCH FORM */
+#suggestions{ position: relative; left:0; display:none; }
+
+/* SEARCHRESULTS */
+#searchresults { border-width:1px; border-color:#919191; border-style:solid; background-color:#a0a0a0; font-size:10px; line-height:14px; }
+#searchresults a { display:block; background-color:#fff; clear:left; height:40px; text-decoration:none; }
+#searchresults a:hover { background-color:#b7b7b7; color:#ffffff; }
+#searchresults a img { float:left; padding:5px 10px; }
+#searchresults a span.searchheading { font-size: 12px; display:block; font-weight:bold; padding-top:5px; padding-left: 5px; color:#FFC039; }
+#searchresults a span { padding-left: 5px; }
+#searchresults a:hover span.searchheading { color:#ffffff; }
+#searchresults a:hover span { color:#f1f1f1; }
+#searchresults span.category { font-size:11px; margin:5px; display:block; color:#ffffff; }
+#searchresults span.seperator { float:left; padding-right:15px; margin-right:5px;
+			background-image:url(images/shortcuts_arrow.gif); background-repeat:no-repeat; background-position:right; }
+#searchresults span.seperator a { background-color:transparent; display:block; margin:5px; height:auto; color:#ffffff; }

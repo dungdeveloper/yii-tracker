@@ -1,0 +1,58 @@
+/**
+ * CSS styles for TrackerPager.
+ *
+ * @author Qiang Xue <qiang.xue@gmail.com>, Vadim Gabriel <vadimg88@gmail.com>
+ * @link http://www.yiiframework.com/
+ * @copyright Copyright &copy; 2008-2010 Yii Software LLC
+ * @license http://www.yiiframework.com/license/
+ * @version $Id: pager.css 1678 2010-01-07 21:02:00Z qiang.xue $
+ * @since 1.0
+ */
+
+ul.trackerPager
+{
+	font-size:11px;
+	border:0;
+	margin:0;
+	padding:0;
+	line-height:100%;
+	display:inline;
+}
+
+ul.trackerPager li
+{
+	display:inline;
+}
+
+ul.trackerPager a:link,
+ul.trackerPager a:visited
+{
+	border:solid 1px #fff;
+	font-weight:bold;
+	color:#fff;
+	padding:1px 6px;
+	text-decoration:none;
+}
+
+ul.trackerPager .page a
+{
+	font-weight:normal;
+}
+
+ul.trackerPager a:hover
+{
+	border:solid 1px #fff;
+}
+
+ul.trackerPager .selected a
+{
+    border: 1px solid #EFBA46;
+	color:#EFBA46;
+	font-weight:bold;
+}
+
+ul.trackerPager .hidden a
+{
+	border:solid 1px #fff;
+	color:#fff;
+}
