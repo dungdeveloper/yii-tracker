@@ -46,7 +46,7 @@ return array(
         'application.models.forms.*',
     ),
     'theme' => 'default',
-    'name' => 'My Tracker',
+    'name' => 'SPM',
     'defaultController' => 'site/index',
     'layout' => 'main',
     'charset' => 'UTF-8',
