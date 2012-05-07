@@ -1,4 +1,0 @@
-yii-tracker
-===========
-
-blah blah
